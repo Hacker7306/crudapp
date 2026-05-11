@@ -1,0 +1,83 @@
+# =========================
+# Django / DRF Backend
+# =========================
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+
+# Django stuff
+*.log
+db.sqlite3
+db.sqlite3-journal
+media/
+staticfiles/
+
+# Environment variables
+.env
+.env.*
+
+# Migrations (optional)
+# */migrations/*.py
+# !*/migrations/__init__.py
+
+# PyCharm / VSCode
+.idea/
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Testing / coverage
+.coverage
+htmlcov/
+.pytest_cache/
+.tox/
+.cache/
+
+# Type checker
+.mypy_cache/
+
+# =========================
+# Vite + React Frontend
+# =========================
+
+# Dependencies
+node_modules/
+
+# Build outputs
+dist/
+build/
+
+# Vite cache
+.vite/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Environment variables
+frontend/.env
+frontend/.env.*
+
+# ESLint cache
+.eslintcache
+
+# =========================
+# General
+# =========================
+
+# Temporary files
+*.swp
+*.swo
+*.tmp
