@@ -5,11 +5,11 @@ import { motion, AnimatePresence } from "framer-motion";
 import { loginUser, registerUser } from "../features/authSlice"; 
 
 // shadcn/ui components
-import { Button } from "@/components/ui/button";
-import { Card, CardContent, CardFooter, CardHeader } from "@/components/ui/card";
-import { Checkbox } from "@/components/ui/checkbox";
-import { Input } from "@/components/ui/input";
-import { Label } from "@/components/ui/label";
+import { Button } from "./components/ui/button";
+import { Card, CardContent, CardFooter, CardHeader } from "./components/ui/card";
+import { Checkbox } from "./components/ui/checkbox";
+import { Input } from "./components/ui/input";
+import { Label } from "./components/ui/label";
 import { Eye, EyeOff } from "lucide-react";
 
 // Logo Component
